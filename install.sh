@@ -81,7 +81,7 @@ cp *.state /etc/wm8960-soundcard
 cp wm8960-soundcard /usr/bin/
 cp wm8960-soundcard.service /lib/systemd/system/
 systemctl enable  wm8960-soundcard.service 
-systemctl start wm8960-soundcard                                
+#systemctl start wm8960-soundcard                                
 
 echo "------------------------------------------------------"
 echo "Please reboot your raspberry pi to apply all settings"
