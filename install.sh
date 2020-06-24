@@ -18,7 +18,7 @@ ver="1.0"
 # the sources during kernel updates
 marker="0.0.0"
 
-apt update
+#apt update
 apt-get -y install raspberrypi-kernel-headers raspberrypi-kernel 
 apt-get -y install  dkms git i2c-tools libasound2-plugins
 
