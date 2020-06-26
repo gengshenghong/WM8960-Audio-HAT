@@ -19,8 +19,8 @@ ver="1.0"
 marker="0.0.0"
 
 #apt update
-apt-get -y install raspberrypi-kernel-headers raspberrypi-kernel 
-apt-get -y install  dkms git i2c-tools libasound2-plugins
+#apt-get -y install raspberrypi-kernel-headers raspberrypi-kernel 
+#apt-get -y install  dkms git i2c-tools libasound2-plugins
 
 # locate currently installed kernels (may be different to running kernel if
 # it's just been updated)
